@@ -4,9 +4,9 @@ from imageio import imread, imsave
 import os, glob, cv2
 import matplotlib.pyplot as plt
 
-no_makeup = os.path.join('src/img', 'no_maskup', 'vSYYZ429.png')
-makeup_a = os.path.join('src/img', 'maskup', 'XMY-074.png')
-makeup_b = os.path.join('src/img', 'maskup', 'vFG112.png')
+no_makeup = os.path.join('src/img', 'no_maskup', 'xfsy_0068.png')
+makeup_a = os.path.join('src/img', 'maskup', 'XMY-266.png')
+makeup_b = os.path.join('src/img', 'maskup', 'XMY-136.png')
 img_size = 256
 
 class DMT(object):
